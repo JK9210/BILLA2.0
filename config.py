@@ -25,7 +25,7 @@ SONG_DOWNLOAD_DURATION = int(
 LOGGER_ID = int(getenv("LOGGER_ID", ""))
 
 # Get this value from @Hot_Girl_Robot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", "7048354045"))
+OWNER_ID = int(getenv("OWNER_ID", "6257927828"))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -35,15 +35,15 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/venombolteop/VenomMusic",
+    "https://github.com/JK9210/BILLA2.0",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/VenomOwners")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/Venom_Chatz")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/STORM_TECHH")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/BOT_DEVEPOLING")
 
 
 AUTO_SUGGESTION_MODE = getenv("AUTO_SUGGESTION_MODE", "false")
@@ -85,21 +85,21 @@ clean = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://te.legra.ph/file/754e95311eccb48b7aafc.jpg"
+    "START_IMG_URL", "https://telegra.ph//file/dd00c759805082830b6b6.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://te.legra.ph/file/754e95311eccb48b7aafc.jpg"
+    "PING_IMG_URL", "https://telegra.ph//file/2ddf3521636d4b17df6dd.jpg"
 )
-PLAYLIST_IMG_URL = "https://te.legra.ph/file/754e95311eccb48b7aafc.jpg"
-STATS_IMG_URL = "https://te.legra.ph/file/754e95311eccb48b7aafc.jpg"
-TELEGRAM_AUDIO_URL = "https://te.legra.ph/file/754e95311eccb48b7aafc.jpg"
-TELEGRAM_VIDEO_URL = "https://te.legra.ph/file/754e95311eccb48b7aafc.jpg"
-STREAM_IMG_URL = "https://te.legra.ph/file/754e95311eccb48b7aafc.jpg"
-SOUNCLOUD_IMG_URL = "https://te.legra.ph/file/754e95311eccb48b7aafc.jpg"
-YOUTUBE_IMG_URL = "https://te.legra.ph/file/754e95311eccb48b7aafc.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://te.legra.ph/file/754e95311eccb48b7aafc.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://te.legra.ph/file/754e95311eccb48b7aafc.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://te.legra.ph/file/754e95311eccb48b7aafc.jpg"
+PLAYLIST_IMG_URL = "https://telegra.ph//file/72e4414f618111ea90a57.jpg"
+STATS_IMG_URL = "https://telegra.ph//file/bc97b1e9bbe6d6db36984.jpg"
+TELEGRAM_AUDIO_URL = "https://telegra.ph//file/a958417dcd966d341bfe2.jpg"
+TELEGRAM_VIDEO_URL = "https://telegra.ph//file/0afd9c2f70c6328a1e53a.jpg"
+STREAM_IMG_URL = "https://telegra.ph//file/07bb5f805178ec24871d3.jpg"
+SOUNCLOUD_IMG_URL = "https://telegra.ph//file/a7cba6e78bb63e1b4aefb.jpg"
+YOUTUBE_IMG_URL = "https://telegra.ph//file/8ba64d5506c23acb67ff4.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://telegra.ph//file/3b59b15e1914b4fa18b71.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://telegra.ph//file/18e98c60b253d4d926f5f.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://telegra.ph//file/efb26cc17eef6fe82d910.jpg"
 
 
 def time_to_seconds(time):
