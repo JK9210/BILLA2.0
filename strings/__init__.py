@@ -3,6 +3,8 @@ from typing import List
 
 import yaml
 
+LOGGERS = "KEXX_XD"
+
 languages = {}
 languages_present = {}
 
